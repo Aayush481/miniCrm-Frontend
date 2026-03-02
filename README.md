@@ -81,11 +81,11 @@ Make sure you have the following installed:
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mini-crm-frontend.git
+   git clone https://github.com/your-username/miniCrm-Frontend.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd mini-crm-frontend
+   cd miniCrm-Frontend
    ```
 3. Install dependencies:
    ```bash
