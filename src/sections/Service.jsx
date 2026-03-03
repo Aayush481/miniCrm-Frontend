@@ -66,14 +66,14 @@ const Service = () => {
     <section id="service" className='w-full h-screen relative  flex justify-center items-center mt-10 bg-black  '>
       <h1 className='text-white text-4xl md:text-5xl font-bold absolute top-10 '>Services</h1>
       <div className='absolute w-[80%] h-[70%] shadow-inner  rounded-lg   overflow-x-hidden flex justify-center items-center'>
-         <div className='w-4 h-full bg-teal-400 absolute -left-5    blur-3xl '/>
+         <div className='w-4 h-full bg-teal-400 absolute -left-5    blur-2xl '/>
         <div className="overflow-hidden w-full ">
          
   <motion.div
     className="flex gap-10"
     animate={{ x: ["0%", "-120%"] }}
     transition={{
-      duration: 20,       
+      duration: 1,       
       ease: "linear",     
       repeat: Infinity,  
     }}
@@ -81,12 +81,12 @@ const Service = () => {
     {[...services, ...services].map((ser, idx) => (
       <div
         key={idx}
-        className="bg-white/10  border border-white/20 rounded-2xl flex flex-col justify-between items-center text-center p-10 w-84 shrink-0 "
+        className="bg-white/90   border border-white/20 rounded-2xl flex flex-col justify-between items-center text-center p-10 w-84 shrink-0 "
       >
         <h1 className="text-pink-800 font-extrabold text-3xl font-sans">{ser.name}</h1>
-        <h2 className="text-white font-bold text-[20px]  mb-2 mt-4">{ser.description}</h2>
-        <h3 className="text-white font-bold text-sm mb-2">{ser.category}</h3>
-        <p className="text-gray-300 italic text-sm sm:text-base mb-2">{ser.priceRange}</p>
+        <h2 className="text-black font-bold text-[20px]  mb-2 mt-4">{ser.description}</h2>
+        <h3 className="text-black font-bold text-sm mb-2">{ser.category}</h3>
+        <p className="text-gray-900 italic text-sm sm:text-base mb-2">{ser.priceRange}</p>
       </div>
     ))}
   </motion.div>

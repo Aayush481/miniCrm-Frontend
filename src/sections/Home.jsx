@@ -22,7 +22,7 @@ const Home = () => {
           Bringing out your natural beauty with professional bridal and event makeup services in Saharanpur.
         </p>
         <button className="py-5 px-6 text-lg bg-pink-800 text-white rounded-full mt-10 w-fit mx-auto lg:mx-0 shadow-2xl backdrop-blur-2xl hover:bg-gradient-to-r hover:scale-110 from-red-950 via-pink-600 to-pink-400">
-          view portfolio
+          <a href="#portfolio">view portfolio</a>
         </button>
       </div>
 
