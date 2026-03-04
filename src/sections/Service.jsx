@@ -79,7 +79,8 @@ const Service = () => {
     }}
   >
     {[...services, ...services].map((ser, idx) => (
-      <div
+      <motion.div
+        whileHover={{scale:1.2}}
         key={idx}
         className="bg-white/90   border border-white/20 rounded-2xl flex flex-col justify-between items-center text-center p-10 w-84 shrink-0 "
       >
@@ -87,7 +88,7 @@ const Service = () => {
         <h2 className="text-black font-bold text-[20px]  mb-2 mt-4">{ser.description}</h2>
         <h3 className="text-black font-bold text-sm mb-2">{ser.category}</h3>
         <p className="text-gray-900 italic text-sm sm:text-base mb-2">{ser.priceRange}</p>
-      </div>
+      </motion.div>
     ))}
   </motion.div>
 </div>
