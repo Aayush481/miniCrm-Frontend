@@ -73,7 +73,7 @@ const Service = () => {
     className="flex gap-10"
     animate={{ x: ["0%", "-120%"] }}
     transition={{
-      duration: 1,       
+      duration: 12,       
       ease: "linear",     
       repeat: Infinity,  
     }}
